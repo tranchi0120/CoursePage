@@ -1,0 +1,78 @@
+.pagination {
+  margin-top: 106px;
+  margin-bottom: 102px;
+  &-list {
+    display: flex;
+    gap: 0 10px;
+  }
+
+  &-button {
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+  }
+
+  &-button1 {
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: orange;
+    border: 1px solid orange;
+  }
+
+  &-button2 {
+    text-align: center;
+    width: 100px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 100px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+  }
+  &-text {
+    font-weight: 100;
+    margin-top: 19px;
+    color: #535353;
+  }
+  &-text1 {
+    font-weight: 100;
+    margin-top: 19px;
+    color: #fff;
+  }
+
+  @media screen and (max-width: 767px) {
+    &-button1 {
+      height: 60px;
+    }
+    &-button {
+      height: 60px;
+    }
+    &-button2 {
+      height: 60px;
+    }
+  }
+
+  @media screen and (max-width: 1023px) and (min-width: 768px) {
+    &-list {
+      margin-left: 15px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    &-button1 {
+      height: 50px;
+    }
+    &-button {
+      height: 50px;
+    }
+    &-button2 {
+      height: 50px;
+    }
+  }
+}

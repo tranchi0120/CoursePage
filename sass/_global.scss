@@ -1,0 +1,101 @@
+body {
+  line-height: 1;
+  font-family: $fonts;
+  color: $gray;
+  font-weight: 600;
+  background-color: white;
+}
+// .wrapper {
+//   max-width: 100%;
+// }
+.container-fluid {
+  max-width: 1328px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1239px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  @media screen and (max-width: 1023px) and (min-width: 768px) {
+    padding: 0;
+  }
+}
+
+.dropdown {
+  font-family: $fonts;
+  font-weight: 200;
+  border: 1px solid #000;
+  border-radius: 100px;
+  width: 104px;
+  height: 45px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 17px;
+  padding-top: 13px;
+  // display: flex;
+  // justify-content: space-between;
+  // align-items: center;
+  // gap: 0 20px;
+  // font-weight: normal;
+  // &-secondary {
+  //   text-align: center;
+  //   width: 87px;
+  //   height: 45px;
+  //   font-size: 14px;
+  //   line-height: 17px;
+  //   padding-top: 13px;
+  //   border: 1px solid #000;
+  //   border-radius: 100px;
+  // }
+  // &-primary {
+  //   font-size: 14px;
+  //   line-height: 20px;
+  //   text-align: center;
+  //   width: 104px;
+  //   height: 45px;
+  //   padding-top: 13px;
+  //   border: 1px solid #000;
+  //   border-radius: 100px;
+  // }
+
+  @media screen and (max-width: 320px) {
+    width: 90px;
+    height: 35px;
+    padding-top: 8px;
+  }
+}
+.button {
+  display: inline-block;
+  padding: 20px 0;
+  border-radius: 100px;
+  font-family: $font-secondary;
+  line-height: calc(21 / 16);
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-align: center;
+  white-space: nowrap;
+  font-weight: 700;
+  &--primary {
+    background-image: linear-gradient(253.58deg, #ffc000 0%, #ff8a00 100%);
+    color: $gray-light;
+  }
+  &--secondary {
+    background-image: linear-gradient(253.58deg, #ffc000 0%, #ff8a00 100%);
+    color: $gray-light;
+  }
+
+  @media screen and (max-width: 1023px) {
+    &--secondary {
+      margin-left: -150px;
+    }
+  }
+  @media only screen and (max-width: 767px) and (min-width: 600px) {
+    &--secondary {
+      width: 100px;
+      margin-left: -150px;
+    }
+  }
+}

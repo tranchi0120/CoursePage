@@ -1,0 +1,109 @@
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0 50px;
+
+  &-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 10px;
+    .button {
+      width: 160px;
+    }
+
+    @media screen and (max-width: 1366px) and (min-width: 1024px) {
+      .button {
+        width: 130px;
+      }
+    }
+  }
+  &-item {
+    position: relative;
+    font-style: normal;
+    font-family: $font-secondary;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: calc(18 / 15);
+    background: linear-gradient(253.58deg, #ffc000 0%, #ff8a00 100%);
+    // background: -webkit-linear-gradient($color1, $color2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  &-link {
+    font-weight: 400;
+  }
+  &-link:hover {
+    border-bottom: 2px solid #ffc000;
+    font-weight: 700;
+  }
+
+  &-toggle {
+    margin-right: 10px;
+    display: none;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 1023px) {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.5);
+
+    width: 280px;
+    flex-direction: column;
+    align-items: stretch;
+    z-index: 9;
+    transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transform: translateX(100%);
+    justify-content: normal;
+
+    &.is-show {
+      transform: translateX(0);
+    }
+    &-link {
+      margin-top: 15px;
+      display: block;
+      padding: 5px 25px;
+      border: none;
+    }
+    &-link:hover {
+      border: none;
+      font-weight: 700;
+    }
+
+    &-shopping {
+      display: none;
+    }
+
+    &-button {
+      width: 300px;
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    &-toggle {
+      display: block;
+    }
+    &-item {
+      margin-bottom: 15px;
+    }
+  }
+
+  @media screen and (max-width: 1366px) and (min-width: 1024px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 30px;
+  }
+}
