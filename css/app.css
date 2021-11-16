@@ -204,6 +204,14 @@ body {
     width: 130px;
   }
 }
+.menu-underline {
+  width: 30px;
+  height: 3px;
+  background: linear-gradient(253.58deg, #ffc000 1.55%, #ff8a00 95.8%);
+  text-align: center;
+  margin-left: 12px;
+  border-radius: 20px;
+}
 .menu-item {
   position: relative;
   font-style: normal;
@@ -218,10 +226,6 @@ body {
 }
 .menu-link {
   font-weight: 400;
-}
-.menu-link:hover {
-  border-bottom: 2px solid #ffc000;
-  font-weight: 700;
 }
 .menu-toggle {
   margin-right: 10px;
@@ -245,6 +249,9 @@ body {
     transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     transform: translateX(100%);
     justify-content: normal;
+  }
+  .menu-underline {
+    display: none;
   }
   .menu.is-show {
     transform: translateX(0);
