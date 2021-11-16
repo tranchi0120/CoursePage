@@ -64,7 +64,22 @@
     }
   }
 
-  @media screen and (max-width: 320px) {
+  @media only screen and (min-width: 320px) and (max-width: 400px) {
+    &-button1 {
+      height: 10px;
+      width: 100px;
+    }
+    &-button {
+      height: 40px;
+      width: 100px;
+    }
+    &-button2 {
+      height: 45px;
+      width: 130px;
+    }
+  }
+
+  @media screen and (max-width: 590px) {
     &-button1 {
       height: 50px;
     }

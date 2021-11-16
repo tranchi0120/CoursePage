@@ -23,7 +23,6 @@
   &-underline {
     width: 30px;
     height: 3px;
-
     background: $bgc-gradient;
     text-align: center;
     margin-left: 12px;
@@ -46,10 +45,9 @@
   &-link {
     font-weight: 400;
   }
-  // &-link:hover {
-  //   border-bottom: 2px solid #ffc000;
-  //   font-weight: 700;
-  // }
+  &-link:hover {
+    font-weight: 700;
+  }
 
   &-toggle {
     margin-right: 10px;

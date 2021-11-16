@@ -227,6 +227,9 @@ body {
 .menu-link {
   font-weight: 400;
 }
+.menu-link:hover {
+  font-weight: 700;
+}
 .menu-toggle {
   margin-right: 10px;
   display: none;
@@ -850,7 +853,21 @@ body {
     margin-left: 15px;
   }
 }
-@media screen and (max-width: 320px) {
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+  .pagination-button1 {
+    height: 10px;
+    width: 100px;
+  }
+  .pagination-button {
+    height: 40px;
+    width: 100px;
+  }
+  .pagination-button2 {
+    height: 45px;
+    width: 130px;
+  }
+}
+@media screen and (max-width: 590px) {
   .pagination-button1 {
     height: 50px;
   }
