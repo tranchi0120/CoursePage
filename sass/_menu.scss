@@ -21,11 +21,11 @@
   }
 
   &-underline {
-    width: 30px;
+    width: 22px;
     height: 3px;
     background: $bgc-gradient;
-    text-align: center;
-    margin-left: 12px;
+    margin-left: 18px;
+    transform: translateY(3px);
     border-radius: 20px;
   }
   &-item {

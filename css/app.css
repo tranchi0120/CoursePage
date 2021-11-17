@@ -194,11 +194,11 @@ body {
   }
 }
 .menu-underline {
-  width: 30px;
+  width: 22px;
   height: 3px;
   background: linear-gradient(253.58deg, #ffc000 1.55%, #ff8a00 95.8%);
-  text-align: center;
-  margin-left: 12px;
+  margin-left: 18px;
+  transform: translateY(3px);
   border-radius: 20px;
 }
 .menu-item {
