@@ -126,7 +126,7 @@
   @media screen and (max-width: 767px) {
     &-left {
       margin: 0;
-      width: 337px;
+      width: 340px;
     }
     &-future {
       display: flex;
@@ -186,9 +186,9 @@
     }
   }
 
-  @media only screen and (min-width: 414px) and (max-width: 599px) {
+  @media only screen and (min-width: 412px) and (max-width: 599px) {
     &-left {
-      width: 370px;
+      width: 380px;
     }
   }
 
@@ -207,9 +207,9 @@
   // }
 
   // ip5
-  @media only screen and (min-width: 320px) and (max-width: 350px) {
+  @media only screen and (min-width: 320px) and (max-width: 370px) {
     &-left {
-      width: 275px;
+      width: 290px;
       // margin: 0;
     }
 
