@@ -551,7 +551,7 @@ body {
     gap: 0 50px;
   }
   .grid .grid-left {
-    width: 320px;
+    width: 330px;
   }
   .grid-right {
     margin-top: 60px;
@@ -573,7 +573,7 @@ body {
 }
 @media only screen and (min-width: 412px) and (max-width: 599px) {
   .grid-left {
-    width: 390px;
+    width: 380px;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 370px) {
