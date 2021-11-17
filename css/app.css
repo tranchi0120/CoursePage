@@ -519,7 +519,7 @@ body {
 @media screen and (max-width: 767px) {
   .grid-left {
     margin: 0;
-    width: 335px;
+    width: 337px;
   }
   .grid-future {
     display: flex;
