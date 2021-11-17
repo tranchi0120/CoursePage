@@ -167,7 +167,7 @@
     }
   }
 
-  @media screen and (max-width: 1023px) and (min-width: 768px) {
+  @media screen and (max-width: 1023px) {
     &-list {
       width: 100%;
       display: grid;
@@ -184,24 +184,6 @@
       grid-gap: 20px;
     }
   }
-  // &-button {
-  //   width: 160px;
-  //   height: 56px;
-  //   display: inline-block;
-  //   padding: 20px 0;
-  //   border-radius: 100px;
-  //   font-family: $font-secondary;
-  //   line-height: calc(21 / 16);
-  //   font-size: 14px;
-  //   cursor: pointer;
-  //   border: none;
-  //   outline: none;
-  //   text-align: center;
-  //   white-space: nowrap;
-  //   font-weight: 700;
-  //   background-color: #ff9000;
-  //   color: #fff;
-  // }
 
   @media screen and (max-width: 767px) {
     &-list {
