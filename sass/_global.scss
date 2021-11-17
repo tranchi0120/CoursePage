@@ -87,15 +87,15 @@ body {
     color: $gray-light;
   }
 
-  @media screen and (max-width: 1023px) {
-    &--secondary {
-      margin-left: -150px;
-    }
-  }
-  @media only screen and (max-width: 767px) and (min-width: 600px) {
-    &--secondary {
-      width: 100px;
-      margin-left: -150px;
-    }
-  }
+  // @media screen and (max-width: 1023px) {
+  //   &--secondary {
+  //     margin-left: -150px;
+  //   }
+  // }
+  // @media only screen and (max-width: 767px) and (min-width: 600px) {
+  //   &--secondary {
+  //     width: 100px;
+  //     margin-left: -150px;
+  //   }
+  // }
 }
