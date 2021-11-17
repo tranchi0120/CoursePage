@@ -519,7 +519,7 @@ body {
 @media screen and (max-width: 767px) {
   .grid-left {
     margin: 0;
-    width: 340px;
+    width: 330px;
   }
   .grid-future {
     display: flex;
@@ -540,11 +540,6 @@ body {
     margin-left: 30px;
   }
 }
-@media only screen and (max-width: 735px) and (min-width: 414px) {
-  .grid-left {
-    width: 370px;
-  }
-}
 @media only screen and (min-width: 600px) and (max-width: 767px) {
   .grid .grid-show {
     margin-right: -40px;
@@ -556,7 +551,7 @@ body {
     gap: 0 50px;
   }
   .grid .grid-left {
-    width: 310px;
+    width: 320px;
   }
   .grid-right {
     margin-top: 60px;
@@ -578,12 +573,12 @@ body {
 }
 @media only screen and (min-width: 414px) and (max-width: 599px) {
   .grid-left {
-    width: 380px;
+    width: 370px;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 350px) {
   .grid-left {
-    width: 290px;
+    width: 275px;
   }
   .grid-short {
     margin-left: 1px;
