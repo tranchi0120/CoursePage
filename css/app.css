@@ -78,11 +78,6 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
-@media screen and (max-width: 1023px) and (min-width: 768px) {
-  .container {
-    padding: 0;
-  }
-}
 
 .dropdown {
   font-family: "Proxima Nova", sans-serif;
@@ -351,7 +346,6 @@ body {
 }
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   .hero {
-    padding: 0 15px;
     margin-bottom: 87px;
     height: 650px;
   }
@@ -433,11 +427,6 @@ body {
   margin-bottom: 10px;
   width: 100%;
   border-bottom: 2px solid #fff;
-}
-@media screen and (max-width: 1023px) and (min-width: 768px) {
-  .search {
-    padding: 0 15px;
-  }
 }
 
 .grid-total {
@@ -530,7 +519,7 @@ body {
 @media screen and (max-width: 767px) {
   .grid-left {
     margin: 0;
-    width: 345px;
+    width: 340px;
   }
   .grid-future {
     display: flex;
@@ -567,7 +556,7 @@ body {
     gap: 0 50px;
   }
   .grid .grid-left {
-    width: 300px;
+    width: 310px;
   }
   .grid-right {
     margin-top: 60px;
@@ -584,7 +573,7 @@ body {
   .grid-total {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 50px;
+    grid-gap: 30px;
   }
 }
 @media only screen and (min-width: 414px) and (max-width: 599px) {
@@ -769,7 +758,6 @@ body {
 }
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   .sourse-list {
-    margin-left: 15px;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);

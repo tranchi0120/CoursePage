@@ -126,7 +126,7 @@
   @media screen and (max-width: 767px) {
     &-left {
       margin: 0;
-      width: 345px;
+      width: 340px;
     }
     &-future {
       display: flex;
@@ -168,7 +168,7 @@
         gap: 0 50px;
       }
       &-left {
-        width: 300px;
+        width: 310px;
       }
     }
     &-right {
@@ -186,7 +186,7 @@
     &-total {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      grid-gap: 50px;
+      grid-gap: 30px;
     }
   }
 
