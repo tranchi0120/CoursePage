@@ -11,9 +11,7 @@
     align-items: center;
     gap: 0 35px;
   }
-  // &-left {
-  //   width: 928px;
-  // }
+
   &-future {
     font-weight: normal;
     display: flex;
@@ -111,9 +109,7 @@
     &-show {
       display: block;
     }
-    // &-sort {
-    //   margin-left: 20px;
-    // }
+
     &-total {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
