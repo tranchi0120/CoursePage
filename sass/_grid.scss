@@ -28,7 +28,7 @@
   }
   &-sort {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     gap: 0 25px;
   }
@@ -70,7 +70,7 @@
     }
   }
 
-  @media screen and (max-width: 1023px) and (min-width: 767px) {
+  @media screen and (max-width: 1023px) and (min-width: 768px) {
     .grid {
       &-show {
         margin-right: -340px;
@@ -103,7 +103,7 @@
     }
     &-future {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: center;
       gap: 40px;
       margin-bottom: 20px;
